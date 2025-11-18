@@ -1,0 +1,26 @@
+# Virtual environments
+spam_detector_env/
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Model files
+models/*.pkl
+
+# Dataset files
+dataset.csv
+sample_emails.csv
+
+# OS files
+.DS_Store
+
+# Streamlit generated files
+.streamlit/
+
+# Jupyter
+.ipynb_checkpoints/
