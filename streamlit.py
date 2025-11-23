@@ -141,7 +141,7 @@ def create_gauge_chart(value, title, color):
         mode="gauge+number",
         value=value * 100,
         domain={'x': [0, 1], 'y': [0, 1]},
-        title={'text': title, 'font': {'size': 24, 'color': '#333'}},
+        title={'text': title, 'font': {'size': 24, 'color': '#ffffff'}},
         number={'suffix': "%", 'font': {'size': 50, 'color': color}},
         gauge={
             'axis': {'range': [None, 100], 'tickwidth': 2, 'tickcolor': "#666"},
@@ -166,7 +166,7 @@ def create_gauge_chart(value, title, color):
         height=350,
         margin=dict(l=30, r=30, t=80, b=30),
         paper_bgcolor="rgba(0,0,0,0)",
-        font={'color': "#333", 'family': "Arial"}
+        font={'color': "#ffffff", 'family': "Arial"}
     )
     
     return fig
